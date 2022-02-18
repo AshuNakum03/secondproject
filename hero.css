@@ -1,0 +1,357 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.herotxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.subheading {
+  font-size: 5rem;
+  line-height: 1;
+}
+.subtxt {
+  font-family: "Playfair Display";
+  font-size: 4rem;
+}
+.subtxtv {
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+.icon {
+  margin-left: 3rem;
+  color: lightslategray;
+}
+.txt {
+  word-wrap: break-word;
+}
+.learn {
+  font-family: "Playfair Display";
+  font-size: 5rem;
+}
+.subheading2 {
+  font-size: 4rem;
+}
+.circleo {
+  width: 316px;
+  height: 316px;
+  background-color: #fed73e;
+  border-radius: 50%;
+}
+.circleround {
+  z-index: -1;
+  position: absolute;
+}
+.circleimage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.titletxt {
+  max-width: 480px;
+  word-wrap: break-word;
+}
+.imagewra {
+  max-width: 80%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.school {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  font-size: 4rem;
+}
+.best {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  font-size: 4rem;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+}
+.para {
+  text-align: right;
+  padding: 30px 52px;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+}
+.para p {
+  line-height: 1.6;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.para h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+.para1 {
+  text-align: left;
+  padding: 26px 36px;
+  display: flex;
+  flex-direction: column;
+}
+.para1 p {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.para1 h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+.fashion {
+  padding: 50px 130px 50px 50px;
+}
+
+.behindcolor {
+  background-image: linear-gradient(to right, #db545a, #f1c50e);
+}
+.behindgirl {
+  background-image: linear-gradient(to right, #db545a, #f1c50e);
+  padding: 110px;
+}
+.callgirl {
+  transform: translate(-50%);
+  padding: 50px 130px 50px 50px;
+}
+.browse {
+  font-size: 1.7rem;
+}
+.overlapimg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hello {
+  font-size: 4rem;
+  max-width: 260px;
+  line-height: 0.8;
+}
+.freeon {
+  max-width: 485px;
+  font-size: 4rem;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.freeonline {
+  margin: 0 0 0 -100px;
+}
+.courses {
+  font-family: "Playfair Display";
+  font-weight: 500;
+}
+.overlapimg {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.box {
+  width: 550px;
+  height: 250px;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 45%;
+  transform: translate(15%);
+}
+
+.rectangle {
+  width: 747px;
+  height: 481px;
+  background-color: #f1c50e;
+}
+.girl {
+  display: flex;
+}
+.high {
+  font-size: 4rem;
+}
+.bx {
+  font-family: "Play fair Display";
+  padding: 30px 20px;
+}
+.education {
+  font-size: 4rem;
+}
+
+.clggirl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choras {
+  width: 560px;
+  height: 500px;
+  background-image: linear-gradient(to right, #db545a, #f1c50e);
+}
+.hi {
+  font-size: 4rem;
+  line-height: 1;
+}
+.paara {
+  max-width: 300px;
+}
+
+.piri {
+  max-width: 250px;
+}
+.free {
+  font-size: 2rem;
+}
+.get {
+  font-size: 3rem;
+  font-family: "Playfair Display";
+}
+.dont {
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+.textbox {
+  width: 100%;
+  padding: 10px;
+}
+
+.textbox > * {
+  border: none;
+  border: 1px solid white;
+  background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .circleimage {
+    flex-direction: column;
+  }
+  .titletxt {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+  .fashion {
+    padding: 0px;
+  }
+  .behindcolor {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .aboutus {
+    padding: 15px;
+    word-wrap: break-word;
+  }
+  .first {
+    width: 100%;
+  }
+
+  .para {
+    padding: 10px;
+    text-align: start;
+    flex-wrap: wrap;
+  }
+  .para1 {
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .freeonline {
+    margin: 0px;
+    width: 100%;
+  }
+  .fashiondesigner {
+    padding: 15px;
+  }
+  .girl {
+    flex-direction: column;
+  }
+  .bx {
+    padding: 0px;
+  }
+
+  .learn {
+    font-size: 3rem;
+  }
+  .subheading2 {
+    font-size: 3rem;
+  }
+  .box {
+    transform: translate(0%);
+    width: 100%;
+    height: 100vw;
+  }
+  .rectangle {
+    width: 100%;
+    height: 100vw;
+    transform: translate(0%);
+  }
+  .piri {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  .choras {
+    width: 100%;
+    height: 76vw;
+  }
+  .booklate {
+    padding: 15px;
+  }
+  .ft {
+    padding: 15px;
+  }
+  .collagegirls {
+    z-index: -1;
+  }
+  .pbutton {
+    z-index: 1;
+  }
+  .subtxt {
+    font-size: 3rem;
+  }
+  .subheading {
+    font-size: 3rem;
+  }
+  .your {
+    font-size: 1rem;
+  }
+  .txt {
+    padding-top: 10px;
+  }
+  .best {
+    font-size: 2rem;
+  }
+  .school {
+    font-size: 2rem;
+  }
+}
+
+.recet {
+  width: 800px;
+  height: 450px;
+  background-color: #f1c50e;
+}
+.cubicgirl {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+}
